@@ -1,0 +1,17 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "files.exclude": {
+        "node_modules/**":true
+    },
+    "javascript.validate.enable": false,
+    "eslint.enable": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "npm.packageManager": "yarn",
+    "gitlink.defaultRemote": "https://github.com/Adphorus/temenni-app/",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.tabSize": 2
+}

@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "clinyong.vscode-css-modules",
+        "Orta.vscode-jest",
+    ]
+}
