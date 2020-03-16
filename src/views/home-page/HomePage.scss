@@ -1,0 +1,46 @@
+.pokemonCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  max-width: 960px;
+  margin: 0 auto 30px;
+  .pokemonCard{
+    cursor: pointer;
+    background-color: #fafafa;
+    position: relative;
+    width: 220px;
+    height: 170px;
+    border: 1px solid #5c5c5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+    &:hover {
+      background-color: #e2e2e2;
+    }
+  }
+}
+
+img.pokemonImage {
+  width: 100px;
+  height: 100px;
+} 
+
+.filterInput {
+  color: #333;
+  font-size: 0.9rem;
+  margin: 8%;
+  border-radius: 0.2rem;
+  background-color: white;
+  border: none;
+  width: 500px;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+
+.hidden{
+  display: none;
+}
